@@ -7,9 +7,9 @@ import PropTypes from "prop-types";
 import React from "react";
 
 interface Props {
-  color: string;
-  opacity: string;
-  className: any;
+  color?: string;
+  opacity?: string;
+  className?: any;
 }
 
 export const ArrowDropDown24Px4 = ({ color = "#144561", opacity = "unset", className }: Props): JSX.Element => {
